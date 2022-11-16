@@ -40,3 +40,15 @@ body {
   /* #2ba14b border needs to cover part of the #3a7cec one */
   z-index: -1;
 }
+
+.line {
+  width: 80px;
+  height: 30px;
+  background-color: #3a7cec;
+  position: absolute;
+  right: 0;
+  /* pull back by 50% of its height to vertically center #3a7cec line */
+  top: 50%;
+  transform: translateY(-50%);
+  border-bottom-right-radius: 15px;
+}
